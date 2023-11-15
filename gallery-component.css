@@ -1,0 +1,48 @@
+
+body{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 9%, rgba(0,212,255,1) 100%);
+}
+.filter-buttons {
+  text-align: center;
+}
+
+.filter-button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image {
+  width: 500px;
+  height: 150px;
+  object-fit: cover;
+  margin: 10px;
+  transition: transform 0.3s;
+  border-radius: 10px;
+}
+
+/* Estilos para categorías */
+.bmw {
+  border: 2px solid green;
+}
+
+.mazda {
+  border: 2px solid blue;
+}
+
+.ferrari {
+  border: 2px solid red;
+}
+
+.mercedes {
+  border: 2px solid rgb(208, 255, 0);
+}
